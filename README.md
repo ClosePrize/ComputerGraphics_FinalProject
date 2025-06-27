@@ -25,11 +25,10 @@ Bu proje, **Visual Studio** kullanılarak geliştirilen bir **OpenGL** uygulamas
    ```bash
    git clone https://github.com/ClosePrize/ComputerGraphics_Project.git
    cd ComputerGraphics_Project
-   '''
-2.Git LFS ile büyük model dosyalarını indirin:
-
+   ```
+2. Git LFS ile büyük model dosyalarını indirin:
    ```bash
    git lfs pull
-   '''
-3.'ComputerGraphics_Project.sln' dosyasını Visual Studio ile açın.
+   ```
+3. 'ComputerGraphics_Project.sln' dosyasını Visual Studio ile açın.
 4. "Debug" modunda çalıştırarak projeyi doğrudan başlatabilirsiniz.
