@@ -55,6 +55,15 @@ Alternatif olarak, projeyi terminal üzerinden manuel derleyebilirsiniz:
 
 ---
 
+## 📂 Teknik Bilgiler
+
+- **Model Yükleme:** `Assimp` ile `.obj` formatındaki satranç taşı ve oda modelleri yüklendi.
+- **Animasyon:** Satranç taşları belirli sıra ve zamanlamalarla çoban matını canlandıracak şekilde hareket etmektedir.
+- **Kamera Kontrolü:** Serbest dolaşım (free cam) ve FPS modları arasında geçiş yapılabilmektedir.
+- **Shader Kullanımı:** Gerçekçi ışıklandırma ve gölgelendirme efektleri için özel `vertex` ve `fragment` shader’ları yazılmıştır.
+
+---
+
 ## 🖼️ Görseller
 
 **1. Birinci Şahıs Kamera Görünümü:**
