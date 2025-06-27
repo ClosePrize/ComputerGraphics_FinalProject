@@ -23,8 +23,8 @@ Bu proje, **Visual Studio** kullanılarak geliştirilen bir **OpenGL** uygulamas
 
 1. Bu depoyu bilgisayarınıza klonlayın:
    ```bash
-   git clone https://github.com/ClosePrize/ComputerGraphics_Project.git
-   cd ComputerGraphics_Project
+   git clone https://github.com/ClosePrize/ComputerGraphics_FinalProject.git
+   cd ComputerGraphics_FinalProject
    ```
 2. Git LFS ile büyük model dosyalarını indirin:
    ```bash
@@ -41,8 +41,8 @@ Alternatif olarak, projeyi terminal üzerinden manuel derleyebilirsiniz:
 
 1. Depoyu klonlayın:
    ```bash
-   git clone https://github.com/ClosePrize/ComputerGraphics_Project.git
-   cd ComputerGraphics_Project
+   git clone https://github.com/ClosePrize/ComputerGraphics_FinalProject.git
+   cd ComputerGraphics_FinalProject
    git lfs pull
    ```
 
