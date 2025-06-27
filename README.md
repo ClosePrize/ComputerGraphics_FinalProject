@@ -1,4 +1,4 @@
-# Bilgisayar Grafikleri Projesi
+# Bilgisayar Grafikleri Final Projesi
 
 Bu proje, **Visual Studio** kullanılarak geliştirilen bir **OpenGL** uygulamasıdır. Proje kapsamında, 3D grafikler, sahne oluşturma, model yükleme ve animasyon teknikleri uygulanmıştır. Proje, özellikle **çoban matı** (Scholar's Mate) temalı bir satranç sahnesinde gerçekleştirilmiştir.
 
