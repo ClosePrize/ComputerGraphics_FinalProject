@@ -2,7 +2,6 @@
 .vs/
 *.ipch
 *.pch
-*.obj
 *.exe
 *.sdf
 *.VC.db

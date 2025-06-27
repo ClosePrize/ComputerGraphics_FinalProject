@@ -87,11 +87,11 @@ void processInput(GLFWwindow* window) {
     if (glfwGetKey(window, GLFW_KEY_SPACE) == GLFW_PRESS) camera.ProcessKeyboard(' ');
     if (glfwGetKey(window, GLFW_KEY_1) == GLFW_PRESS) camera.ProcessKeyboard('1');
     if (glfwGetKey(window, GLFW_KEY_3) == GLFW_PRESS) camera.ProcessKeyboard('3');
-    if (glfwGetKey(window, GLFW_KEY_7) == GLFW_PRESS) {
+    if (glfwGetKey(window, GLFW_KEY_5) == GLFW_PRESS) {
         whitePawnAnim.active = true;
         sequentialStarted = true;
     }
-    if (glfwGetKey(window, GLFW_KEY_8) == GLFW_PRESS) {
+    if (glfwGetKey(window, GLFW_KEY_6) == GLFW_PRESS) {
         whitePawnAnim.offsetX = 0;
         whitePawnAnim.offsetZ = 0;
         whitePawnAnim.active = false;
@@ -136,7 +136,7 @@ int main() {
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
-    GLFWwindow* window = glfwCreateWindow(1920, 1080, "Assimp Model Loading", NULL, NULL);
+    GLFWwindow* window = glfwCreateWindow(1920, 1080, "Computer Graphics Final Project", NULL, NULL);
     if (!window) {
         std::cout << "Failed to create GLFW window" << std::endl;
         glfwTerminate();
