@@ -2,7 +2,7 @@
 
 Bu proje, **Visual Studio** kullanılarak geliştirilen bir **OpenGL** uygulamasıdır. Proje kapsamında, 3D grafikler, sahne oluşturma, model yükleme ve animasyon teknikleri uygulanmıştır. Proje, özellikle **çoban matı** (Scholar's Mate) temalı bir satranç sahnesinde gerçekleştirilmiştir.
 
-📺 **Proje Videosu:** [YouTube'da İzle](https://youtu.be/Jppn0Wltxt8)
+📺 **Proje Videosu:** [YouTube'da İzle](https://youtu.be/-bge980TLYs)
 
 ---
 
@@ -31,7 +31,11 @@ Bu proje, **Visual Studio** kullanılarak geliştirilen bir **OpenGL** uygulamas
    git lfs pull
    ```
 3. 'ComputerGraphics_Project.sln' dosyasını Visual Studio ile açın.
-4. "Debug" modunda çalıştırarak projeyi doğrudan başlatabilirsiniz.
+4. DLL dosyalarının uzantısını projeye vermek için sol taraftaki solution explorer kısmından ComputerGraphics_FinalProject'e sağ tıklayarak properties kısmına girin. Debugging sekmesindeki environment kısmına aşağıdaki uzantıyı yapıştırın ve kaydedin.
+   ```bash
+   PATH=%PATH%;$(ProjectDir)Libraries\DLL
+   ```
+5. "Debug" modunda çalıştırarak projeyi doğrudan başlatabilirsiniz.
 
 ---
 
