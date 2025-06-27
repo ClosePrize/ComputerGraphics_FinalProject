@@ -44,9 +44,6 @@
     <ClInclude Include="load_model_meshes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ComputerGraphics_Project\stb_image.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="shader_configure.h">
       <Filter>Header Files</Filter>
     </ClInclude>

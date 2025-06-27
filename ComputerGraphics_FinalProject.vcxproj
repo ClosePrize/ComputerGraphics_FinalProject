@@ -151,7 +151,6 @@
     <ClCompile Include="Texture.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\ComputerGraphics_Project\stb_image.h" />
     <ClInclude Include="Camera.h" />
     <ClInclude Include="load_model_meshes.h" />
     <ClInclude Include="Mesh.h" />
