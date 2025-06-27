@@ -164,8 +164,6 @@
   <ItemGroup>
     <None Include="..\ogldev\tutorial18_youtube\shader.frag" />
     <None Include="..\ogldev\tutorial18_youtube\shader.vert" />
-    <None Include="shaders\default.frag" />
-    <None Include="shaders\default.vert" />
     <None Include="shaders\light.frag" />
     <None Include="shaders\light.vert" />
     <None Include="shader_glsl.frag" />

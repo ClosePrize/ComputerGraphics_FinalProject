@@ -33,6 +33,21 @@ glm::mat4 Camera::getProjectionMatrix(float FOVdeg, float nearPlane, float farPl
 
 void Camera::ProcessKeyboard(unsigned char key)
 {
+    // If in FPS mode, restrict keyboard movement
+    if (mode == FPS) {
+        // Only allow '1' and '3' to switch modes
+        if (key == '1') {
+            SetFPSMode(false);
+            std::cout << "Free camera mode\n";
+        }
+        if (key == '3') {
+            SetFPSMode(true);
+            std::cout << "FPS camera mode (already in FPS mode)\n"; // Already in FPS mode
+        }
+        return; // Exit if not 1 or 3
+    }
+
+    // Free camera mode movement
     float velocity = MovementSpeed * 0.05f;
 
     if (key == 'w') {
@@ -50,6 +65,7 @@ void Camera::ProcessKeyboard(unsigned char key)
     if (key == 17) Position -= WorldUp * velocity; // CTRL
 
     if (key == '1') {
+        Position = glm::vec3(-643.326f, 151.75f, -561.753f);
         SetFPSMode(false);
         std::cout << "Free camera mode\n";
     }
@@ -98,6 +114,11 @@ void Camera::ProcessMouse(GLFWwindow* window)
 void Camera::SetFPSMode(bool enable)
 {
     mode = enable ? FPS : FREE;
+    if (mode == FPS) {
+        // Set fixed position for FPS mode
+        Position = glm::vec3(-788.444f, 92.0f, -595.458f);
+    }
+    // No need to reset position for FREE mode, as it will be updated by keyboard input
 }
 
 void Camera::updateCameraVectors()

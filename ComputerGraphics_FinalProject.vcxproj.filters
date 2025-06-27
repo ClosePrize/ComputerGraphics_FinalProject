@@ -82,12 +82,6 @@
     <None Include="..\ogldev\tutorial18_youtube\shader.vert">
       <Filter>Source Files</Filter>
     </None>
-    <None Include="shaders\default.frag">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="shaders\default.vert">
-      <Filter>Resource Files</Filter>
-    </None>
     <None Include="shaders\light.frag">
       <Filter>Resource Files</Filter>
     </None>

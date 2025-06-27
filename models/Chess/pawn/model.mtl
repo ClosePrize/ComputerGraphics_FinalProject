@@ -1,9 +1,7 @@
 # exported by https://3dviewer.net
-newmtl WoodLight_Tile_mat
-Kd 1 1 1
+newmtl Coppper
+Kd 0.9372549019607843 0.6745098039215687 0.20784313725490197
 d 1
-map_Kd Binary_1.png
-newmtl FeltRed_mat
-Kd 1 1 1
+newmtl white
+Kd 0.8156862745098039 0.8156862745098039 0.8156862745098039
 d 1
-map_Kd Binary_4.png
