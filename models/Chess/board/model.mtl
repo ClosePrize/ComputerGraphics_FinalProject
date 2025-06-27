@@ -1,0 +1,13 @@
+# exported by https://3dviewer.net
+newmtl WoodDark_mat
+Kd 1 1 1
+d 1
+map_Kd Binary_1.png
+newmtl WoodLight_Tile_mat
+Kd 1 1 1
+d 1
+map_Kd Binary_3.png
+newmtl FeltRed_mat
+Kd 1 1 1
+d 1
+map_Kd Binary_5.png

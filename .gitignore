@@ -1,0 +1,14 @@
+# Visual Studio dosyaları
+.vs/
+*.ipch
+*.pch
+*.obj
+*.exe
+*.sdf
+*.VC.db
+*.opensdf
+# Build and debug folders
+Computer.c516009d/x64/Debug/
+models/backpack/
+x64
+*.vcxproj.user
