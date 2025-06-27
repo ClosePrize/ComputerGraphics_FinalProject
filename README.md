@@ -32,3 +32,40 @@ Bu proje, **Visual Studio** kullanılarak geliştirilen bir **OpenGL** uygulamas
    ```
 3. 'ComputerGraphics_Project.sln' dosyasını Visual Studio ile açın.
 4. "Debug" modunda çalıştırarak projeyi doğrudan başlatabilirsiniz.
+
+---
+
+### 🔶 Visual Studio Kullanmadan Derleme
+
+Alternatif olarak, projeyi terminal üzerinden manuel derleyebilirsiniz:
+
+1. Depoyu klonlayın:
+   ```bash
+   git clone https://github.com/ClosePrize/ComputerGraphics_Project.git
+   cd ComputerGraphics_Project
+   git lfs pull
+   ```
+
+2. Projeyi şu şekilde derleyin:
+   ```bash
+   g++ -o project Main.cpp -lglfw -lGL -lGLEW -lGLU -lassimp
+   ```
+
+> Gerekli kütüphanelerin (GLFW, GLEW, OpenGL, Assimp) sisteminizde kurulu olduğundan emin olun.
+
+---
+
+## 🖼️ Görseller
+
+**1. Birinci Şahıs Kamera Görünümü:**
+
+![First Person View](Images/FirstPersonView.jpg)
+
+**2. Üçüncü Şahıs Kamera Görünümü:**
+
+![Third Person View](Images/ThirdPersonView.jpg)
+
+**3. Oda Görünümü:**
+
+![Room](Images/Room.jpg)
+
