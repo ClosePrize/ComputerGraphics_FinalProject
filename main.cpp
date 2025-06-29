@@ -22,7 +22,7 @@ float chessPosY = 71.0f;
 float chessPosZ = -559.0f;
 
 
-struct PawnAnim {
+struct Anim {
     float offsetZ = 0.0f;
     float offsetX = 0.0f;
     float speed = 10.0f;
@@ -59,13 +59,13 @@ struct PawnAnim {
 
 
 
-PawnAnim whitePawnAnim = { 0.0f, 0.0f, chessSpeed * chessScale, 72.0f* chessScale, 0.0f* chessScale, 1, 0, false, false };
-PawnAnim whiteQueenAnim = { 0.0f, 0.0f, chessSpeed * chessScale, 72.0f* chessScale, 72.0f* chessScale, 1, -1, false, false };
-PawnAnim whiteBishopAnim = { 0.0f, 0.0f, chessSpeed * chessScale, 108.0f* chessScale, 108.0f* chessScale, 1, 1, false, false };
-PawnAnim blackPawnAnim = { 0.0f, 0.0f, chessSpeed * chessScale, 72.0f* chessScale, 0.0f* chessScale, -1, 0, false, false };
-PawnAnim blackPawn2Anim = { 0.0f, 0.0f, chessSpeed * chessScale, 72.0f* chessScale, 0.0f* chessScale, -1, 0, false, false };
-PawnAnim blackPawn3Anim = { 0.0f, 0.0f, 200.0f * chessScale, 72.0f* chessScale, 108.0f* chessScale, -1, -1, false, false };
-PawnAnim blackKnightAnim = { 0.0f, 0.0f, chessSpeed * chessScale, 72.0f* chessScale, 36.0f* chessScale, -1, 1, false, false };
+Anim whitePawnAnim = { 0.0f, 0.0f, chessSpeed * chessScale, 72.0f* chessScale, 0.0f* chessScale, 1, 0, false, false };
+Anim whiteQueenAnim = { 0.0f, 0.0f, chessSpeed * chessScale, 72.0f* chessScale, 72.0f* chessScale, 1, -1, false, false };
+Anim whiteBishopAnim = { 0.0f, 0.0f, chessSpeed * chessScale, 108.0f* chessScale, 108.0f* chessScale, 1, 1, false, false };
+Anim blackPawnAnim = { 0.0f, 0.0f, chessSpeed * chessScale, 72.0f* chessScale, 0.0f* chessScale, -1, 0, false, false };
+Anim blackPawn2Anim = { 0.0f, 0.0f, chessSpeed * chessScale, 72.0f* chessScale, 0.0f* chessScale, -1, 0, false, false };
+Anim blackPawn3Anim = { 0.0f, 0.0f, 200.0f * chessScale, 72.0f* chessScale, 108.0f* chessScale, -1, -1, false, false };
+Anim blackKnightAnim = { 0.0f, 0.0f, chessSpeed * chessScale, 72.0f* chessScale, 36.0f* chessScale, -1, 1, false, false };
 
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height) {
@@ -261,7 +261,7 @@ int main() {
         glm::mat4 model4 = glm::mat4(1.0f);
         model4 = glm::translate(model4, glm::vec3(chessPosX + whiteBishopAnim.offsetX, chessPosY, chessPosZ + whiteBishopAnim.offsetZ)); // ikinci model sağa kaydırıldı
         model4 = glm::rotate(model4, glm::radians(chessRotate), glm::vec3(0.0f, 1.0f, 0.0f));
-        model4 = glm::scale(model4, glm::vec3(chessScale));                    // aynı ölçek
+        model4 = glm::scale(model4, glm::vec3(chessScale));                    
         shader.setMat4("model", model4);
         whiteBishop.Draw(shader);
 

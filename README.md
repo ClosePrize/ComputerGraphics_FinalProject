@@ -62,6 +62,10 @@ Alternatif olarak, projeyi terminal üzerinden manuel derleyebilirsiniz:
 - **Kamera Kontrolü:** Serbest dolaşım (free cam) ve FPS modları arasında geçiş yapılabilmektedir.
 - **Shader Kullanımı:** Gerçekçi ışıklandırma ve gölgelendirme efektleri için özel `vertex` ve `fragment` shader’ları yazılmıştır.
 
+## 📄 Rapor
+
+Proje ile ilgili detaylı teknik açıklamalar ve değerlendirmeler için [Proje Raporu](Proje%20Raporu.pdf) dosyasını inceleyebilirsiniz.
+
 ---
 
 ## 🖼️ Görseller

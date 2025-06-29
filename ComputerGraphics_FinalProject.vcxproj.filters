@@ -70,12 +70,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="shader_glsl.vert">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="shader_glsl.frag">
-      <Filter>Source Files</Filter>
-    </None>
     <None Include="..\ogldev\tutorial18_youtube\shader.frag">
       <Filter>Source Files</Filter>
     </None>
@@ -87,6 +81,12 @@
     </None>
     <None Include="shaders\light.vert">
       <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaders\shader_glsl.frag">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="shaders\shader_glsl.vert">
+      <Filter>Source Files</Filter>
     </None>
   </ItemGroup>
 </Project>

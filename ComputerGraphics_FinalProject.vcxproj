@@ -166,8 +166,8 @@
     <None Include="..\ogldev\tutorial18_youtube\shader.vert" />
     <None Include="shaders\light.frag" />
     <None Include="shaders\light.vert" />
-    <None Include="shader_glsl.frag" />
-    <None Include="shader_glsl.vert" />
+    <None Include="shaders\shader_glsl.frag" />
+    <None Include="shaders\shader_glsl.vert" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
